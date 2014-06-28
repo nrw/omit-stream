@@ -1,0 +1,27 @@
+{
+  "name": "omit-stream",
+  "description": "Object stream that omits specified keys from output",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nrw/omit-stream.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "lodash.omit": "~2.4.1",
+    "through2": "~0.5.1"
+  },
+  "devDependencies": {
+    "concat-stream": "~1.4.6",
+    "tape": "2.x.x"
+  },
+  "homepage": "https://github.com/nrw/omit-stream",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Nicholas Westlake"
+  }
+}
