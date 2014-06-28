@@ -7,10 +7,11 @@ Object stream that omits specified keys from output.
 ## Example
 
 ``` js
-var stream = omit('not', 'for', 'output')
 var concat = require('concat-stream')
 var omit = require('omit-stream')
 var assert = require('assert')
+
+var stream = omit('not', 'for', 'output')
 
 stream.pipe(concat(function (body) {
   assert.deepEqual(body, [
