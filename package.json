@@ -23,5 +23,15 @@
   "license": "MIT",
   "author": {
     "name": "Nicholas Westlake"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/latest",
+      "chrome/latest",
+      "opera/latest",
+      "safari/latest"
+    ]
   }
 }
